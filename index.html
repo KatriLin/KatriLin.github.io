@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Noto+Sans|Raleway&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+  <title>Katri's Portfolio </title>
+</head>
+
+<body>
+  <header id="stickheader">
+
+    <nav id="mainnav">
+      <ul class="hednav">
+        <li><a href="#about">About</a></li>
+        <li><a href="#contacts">Contact</a></li>
+        <li><a href="#project">Projects</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+      </ul>
+    </nav>
+    <div id="hamburger-cont" class="hamburger-container" onclick="hambfunction(this); showDiv()">
+      <div class="line1"></div>
+      <div class="line2"></div>
+      <div class="line3"></div>
+    </div>
+
+  </header>
+
+
+  <main>
+
+    <div class="animationhead">
+      <h1> Hi, I am Katri Lindvall.<br> I am Web Developer.</h1>
+    </div>
+    <!--<div class="langbox">
+      <ul class="langnav">
+        <li class="lang"><a href="#">Fin </a></li>
+        <li class="lang"><a href="#">Eng </a></li>
+        <li class="lang"><a href="#">Ita </a></li>
+      </ul>
+    </div> -->
+
+  </main>
+  <section id="about">
+    <h2 class="section-heading"><u>About me</u></h2>
+    <div class="about-wrapper">
+      <div>
+
+
+        <p class="abouttext"> I am Full-Stack Web Development student based in Finland.<br>
+
+          I enjoy making beautiful, responsive web pages. I am especially interested developing my knowledge in React and Node.js.
+          So far, I have been studying JavaScript, Node.js, React, CSS and HTML.<br>
+          I am hard working, flexible and I have great work ethic. I can speak fluently English, Finnish and Italian.<br>
+          On my free time, I like to run I participate every now and then on half marathons in Finland and abroad. I also like very much doing some interior designing in my house.
+
+
+        </p>
+      </div>
+    </div>
+  </section>
+  <section id="project">
+    <h2 class="section-heading"><u>Projects</u></h2>
+    <div class="grid-container">
+
+      <div class="item">
+        <img src="img/UnicornProject.PNG" alt="websitePic">
+        <div class="overlay">
+          <h2 class="overlay-content"> First webpage project<br> HTML + CSS + JavaScript<p class="description"><br> Responsive and mobile friendly page</p>
+          </h2>
+        </div>
+      </div>
+      <div class="item">
+        <img src="img/speedpic.PNG" alt="websitePic">
+        <div class="overlay">
+          <h2 class="overlay-content"> Speed Game <br> HTML + CSS + JavaScript
+          </h2>
+        </div>
+      </div>
+      <div class="item">
+        <img src="img/piano.PNG" alt="pianoPic">
+        <div class="overlay">
+          <h2 class="overlay-content"> Piano with sound <br> HTML + CSS + JavaScript</h2>
+        </div>
+      </div>
+      <div class="item">
+        <img class="calculator" src="img/contactManager.png" alt="contactListPic">
+        <div class="overlay">
+          <h2 class="overlay-content"> Contact Manager <br> With React
+            <p>Udemy course project from Brad Traversy. You can see the <a class="udemycourse" href="https://KatriLin.github.io/contactmanager/">project here.</a></p>
+          </h2>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="portfolio">
+    <div>
+      <h2 class="portf"><u>Studies </u></h2><br>
+      <p class="studies"><b>- Full-stack Software Web Developer</b> - Business College Helsinki 2019 - current</p><br>
+
+
+
+      <div class="skills">
+        <h3> HTML 90% </h3>
+        <div class="skills-bar">
+          <div class="html"> </div>
+        </div>
+      </div>
+      <div class="skills">
+        <h3> CSS 80% </h3>
+        <div class="skills-bar">
+          <div class="css"></div>
+        </div>
+      </div>
+      <div class="skills">
+        <h3> JavaScript 50% </h3>
+        <div class="skills-bar">
+          <div class="javascript"></div>
+        </div>
+      </div>
+      <div class="skills">
+        <h3> React 30% </h3>
+        <div class="skills-bar">
+          <div class="react"></div>
+        </div>
+      </div>
+    </div>
+
+    <!--  <p> HTML | CSS | JavaScript | React.js | Node.js </p><br>-->
+    </div>
+    <p class="studiesCA"><b>- Bachelor´s degree in Political Sciences and International Relations</b> - Università degli Studi di Cagliari (Italy) 2010 - 2014 </p><br>
+    <p class="studies"><b>- Erasmus exchange student</b> - Università degli Studi di Cagliari 2009 - 2010</p><br>
+    </div>
+    <h2 class="portf"><u> Working experience</u></h2>
+
+    <p class="work"><b> Freelance Translator</b> <br> I did translator from English and Italian to Finnish.<br>02/2018-01/2019 </p>
+    <p class="work"><b> Receptionist</b><br> I worked as a Receptionist in Business hotel Crowne Plaza. <br>05/2014-09/2017 <br> 05/2011-08/2011 <br> 06/2009-02/2010 <br>07/2006-04/2008 </p>
+    <p class="work"><b> Intern</b><br> I worked as an intern in the Finnish trade center Finpro in Milan.<br> 02/2018-01/2019 </p>
+  </section>
+  <footer>
+    <!--<button type="button" onclick="backtotopFunction ()" id="topBtn" title="Go to top"><i class="fas fa-arrow-up fa-2x"></i></button>-->
+    <div class="footerlinks" id="contacts">
+
+      <div class="linkedin">
+        <a href="https://fi.linkedin.com/in/katri-lindvall-3bb3b356" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a>
+        <span class="linkedintext">LinkedIn </span>
+      </div>
+      <div class="github">
+        <a href="https://github.com/KatriLin" target="_blank"><i class="fab fa-github fa-2x"></i></a>
+        <span class="githubtext"> GitHub </span>
+      </div>
+      <div class="email">
+        <a href="mailto:lindvallkatri@hotmail.com" target="_blank"><i class="far fa-envelope fa-2x"></i></a>
+        <span class="emailtext"> E-mail </span>
+      </div>
+
+      <p id="year"></p>
+    </div>
+
+  </footer>
+  <script type="text/javascript" src="script.js">
+
+  </script>
+
+</body>
+
+</html>
