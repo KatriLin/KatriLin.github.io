@@ -121,7 +121,7 @@ main {
 .animationhead {
   padding-top: 150px;
   padding-left: 60px;
-  font-size: 30px;
+  font-size: 20px;
   position: relative;
   color: white;
   animation: text 2s ease;
@@ -151,7 +151,7 @@ p {
 }
 
 .section-heading {
-  padding: 120px 100px 120px 100px;
+  padding: 100px 100px 60px 100px;
   text-transform: uppercase;
 }
 
@@ -226,6 +226,7 @@ img {
 
 .description {
   font-size: 10px;
+  font-family: 'Open Sans';
 }
 
 /*portfolio area */
@@ -275,6 +276,7 @@ color:white;
 
 .skills {
   display: flex;
+  font-family: 'Open Sans';
 }
 
 .skills h3 {
@@ -282,20 +284,24 @@ color:white;
 }
 
 .portf {
-  padding: 40px 0 40px 0;
+  padding: 70px 0 40px 0;
   text-transform: uppercase;
+  font-family: 'Open Sans';
 }
 
 .studies {
   margin-bottom: 20px;
+  font-family: 'Open Sans';
 }
 
 .studiesCA {
   margin-top: 40px;
+  font-family: 'Open Sans';
 }
 
 .work {
   margin-top: 40px;
+  font-family: 'Open Sans';
 }
 
 /* Footer area */
